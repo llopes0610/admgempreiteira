@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #0b0d0f;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: #c49a5a;
+  color: #0b0d0f;
+}
+
+.container-site {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #ffffff, #c49a5a);
+  -webkit-background-clip: text;
+  color: transparent;
+}

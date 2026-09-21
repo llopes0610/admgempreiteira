@@ -1,0 +1,46 @@
+.env.example
+.gitignore
+README.md
+bootstrap-windows.bat
+next-env.d.ts
+next.config.ts
+package.json
+postcss.config.js
+public/
+  images/
+    .gitkeep
+  logos/
+    .gitkeep
+  projects/
+    .gitkeep
+  videos/
+    .gitkeep
+    LEIA-ME.txt
+scripts/
+  setup.ps1
+  setup.sh
+src/
+  app/
+    globals.css
+    layout.tsx
+    page.tsx
+    servicos/
+      [slug]/
+        page.tsx
+  components/
+    About.tsx
+    ContactCTA.tsx
+    Footer.tsx
+    Header.tsx
+    Hero.tsx
+    IntroVideo.tsx
+    Process.tsx
+    Projects.tsx
+    Services.tsx
+    WhyChooseUs.tsx
+  data/
+    services.ts
+  types/
+    service.ts
+tailwind.config.ts
+tsconfig.json
