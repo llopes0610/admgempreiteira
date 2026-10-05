@@ -32,7 +32,7 @@ export default function Footer() {
           <p className="font-semibold">Contato</p>
           <div className="mt-4 space-y-2 text-sm text-zinc-500">
             <p>WhatsApp: (13) 99620-8112</p>
-            <p>Instagram: @empresa</p>
+            <p>Instagram: @admgempreiteira</p>
           </div>
         </div>
       </div>
