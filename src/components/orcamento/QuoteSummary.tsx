@@ -85,21 +85,23 @@ export default function QuoteSummary({
             </span>
 
             <input
-              id="desconto"
-              type="number"
-              min="0"
-              step="0.01"
-              value={quote.desconto}
-              onChange={(event) =>
-                setQuote((prev) => ({
-                  ...prev,
-                  desconto: Number(
-                    event.target.value
-                  ),
-                }))
-              }
-              className="w-full bg-transparent text-2xl font-semibold outline-none"
-            />
+  id="desconto"
+  type="number"
+  inputMode="decimal"
+  min="0"
+  step="0.01"
+  value={quote.desconto === 0 ? "" : quote.desconto}
+  onChange={(event) => {
+    const value = event.target.value;
+
+    setQuote((prev) => ({
+      ...prev,
+      desconto: value === "" ? 0 : Number(value),
+    }));
+  }}
+  placeholder="0,00"
+  className="w-full bg-transparent text-2xl font-semibold outline-none placeholder:text-zinc-700"
+/>
           </div>
         </div>
 
