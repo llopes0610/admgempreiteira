@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
 const whatsappNumber =
-  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "5513999999999";
+  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "5513981244417";
 
 const message = encodeURIComponent(
   "Olá! Encontrei vocês pelo site e gostaria de solicitar um orçamento."
