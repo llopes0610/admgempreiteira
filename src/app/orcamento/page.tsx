@@ -23,13 +23,27 @@ function createEmptyQuote(numero: string): QuoteData {
     cidade: "",
 
     data: getToday(),
-    validade: "15 dias",
+
+    validade: "7 dias",
 
     descricaoObra: "",
 
-    prazoExecucao: "",
-    formaPagamento: "",
-    observacoes: "",
+    prazoExecucao:
+      "",
+
+    formaPagamento:
+      "50% na aprovação e início dos serviços, 30% durante a execução e 20% na conclusão e entrega dos serviços.",
+
+    observacoes:
+      `Este orçamento contempla exclusivamente os serviços descritos nesta proposta.
+
+Os valores consideram condições normais de execução. Caso sejam identificados problemas ocultos, infiltrações, trincas estruturais, falhas existentes ou necessidade de serviços adicionais, será realizada nova avaliação antes da execução.
+
+Alterações de escopo, serviços extras ou mudanças solicitadas após a aprovação deste orçamento serão orçados separadamente.
+
+Materiais, marcas, cores e acabamentos serão definidos previamente entre a ADMG Empreiteira e o cliente, conforme o escopo da proposta.
+
+O início dos serviços está condicionado à aprovação do orçamento e ao pagamento da parcela inicial acordada.`,
 
     desconto: 0,
 
